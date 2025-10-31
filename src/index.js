@@ -3,7 +3,9 @@
  */
 import domReady from "@wordpress/dom-ready";
 import { createRoot } from "@wordpress/element";
-import { DataForm } from '@wordpress/dataviews';
+import { DataForm } from '@wordpress/dataviews/wp';
+
+console.log( DataForm );
 
 const noop = () => {};
 
